@@ -1,14 +1,14 @@
 # FilmArsivsistemiData
 Film Arşiv Sistemi projesi için verilerin hazırlanma kısmı
 
-## Projenin İçeriği
+# Projenin İçeriği
 Proje için veriler MongoDB'de saklanmıştır. Projelerin çalıştırılma sırası: CleaningData, StemmingWithZemberek, StopWordTurkish.
-# CleaningData
+## CleaningData
 DB'de tutlan veriler içerisindeki noktalama işaretleri ve bazı işaretler temizlendi
-# StemmingWithZemberek
+## StemmingWithZemberek
 DB'de tutlan veriler zemberek kütüphanesi yardımı ile köklerine ayırılmıştır. Köklerine ayırma işlei için stemming yöntemi kullanılmıştır. Zemberek ile stemming yöntenmi 
 kullanılırken zemberek-full.jar kiti kullanılımıştır.
-# StopWordTurkish
+## StopWordTurkish
 Verilerin içerdiği Türkçe ama, ancak vb. gibi kelimeler temizlenmiştir. Bu işlemleri gerçekleştirmek için stop_word_turkish.txt dosyasından faydalanılmıştır.
 
 
